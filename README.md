@@ -1,22 +1,33 @@
 # Tham-benchmark
-## Description
-Benchmark goals are projects that are designed to be done solo. 
 
-The specs of a benchmark goal are designed to cover a wide range of basic concepts and get progressively more complex. The specs are immutable. Benchmark goals do not affect your stats. 
+All testing is done through scripts, take a look at the package json for scripts for each test. These are the scripts.
+
+"disemvowel": "babel-node src/main/disemvowel.js",
+"date": "babel-node src/main/date.js",
+"shuffle": "babel-node src/main/permutations.js",
+"guess": "babel-node src/main/guess.js",
+"scrabble": "babel-node src/main/scrab.js",
+"totalperm": "babel-node src/extras/totalPermutations.js"
+
+
+## Description
+Benchmark goals are projects that are designed to be done solo.
+
+The specs of a benchmark goal are designed to cover a wide range of basic concepts and get progressively more complex. The specs are immutable. Benchmark goals do not affect your stats.
 
 ## Context
 
 **Use a Benchmark goal to**:
 - Take a break from pairing
 - Get a sense of what you can accomplish by yourself
-- Work on flexing problem solving skills 
+- Work on flexing problem solving skills
 - Assess how much you've learned/grown as a developer
 
 ## Retrospectives,  Reviews, Stats, and Team Size
 
 Even though Benchmark Goals are solo goals, the project formation algorithm will add you to it in teams of two. Once that's done, the moderator will split up the team into two single-person projects. There will be no retrospectives for these projects.
 
-For the project review, make sure to schedule a 1:1 30 minute meeting the following week with a SEP. They will go over the code with you in real time, and give you an in person completeness/quality review. 
+For the project review, make sure to schedule a 1:1 30 minute meeting the following week with a SEP. They will go over the code with you in real time, and give you an in person completeness/quality review.
 
 ## Testing
 
@@ -59,7 +70,7 @@ AERETOXMYCNS_B
 
 The number of tiles remaining followed by a comma separated list of the tiles themselves.
 
-For example: 
+For example:
 
 ```
 10: E

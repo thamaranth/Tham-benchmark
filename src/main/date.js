@@ -1,5 +1,5 @@
 import moment from 'moment'
-import times from '../times'
+import times from '../extras/times'
 
 function date(arr) {
   let i = 0
